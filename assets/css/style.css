@@ -1,0 +1,96 @@
+body {
+    background-color: #edf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    display: grid;
+    place-items: center;
+}
+
+#container {
+    display: grid;
+    gap: 20px;
+    margin: 60px 20px;
+}
+
+article {
+    border-radius: 10px;
+    padding: 30px;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+
+#art1,
+#art2,
+#art4 {
+    color: white;
+}
+
+#art1 {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-position: top 0px right 20px;
+    background-repeat: no-repeat;
+}
+
+#art4 {
+    background-color: hsl(219, 29%, 14%);
+}
+
+#art3,
+#art5 {
+    background-color: hsl(0, 0%, 100%);
+    color: #323a45;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+div div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+}
+
+img {
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+h2+p {
+    margin: 0;
+    opacity: 0.5;
+    font-size: 12.5px;
+}
+
+.bolded-p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+blockquote {
+    margin: 20px 0;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+
+.attribution {
+    position: relative;
+    bottom: 20px;
+    font-size: 9px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
